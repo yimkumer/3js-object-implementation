@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loading an OBJ file</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+      }
+      canvas {
+        width: 100vh;
+        height: 100vh;
+      }
+    </style>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"
+    ></script>
+    <script defer src="OrbitControls.js"></script>
+    <script defer src="OBJLoader.js"></script>
+    <script type="module" defer src="script.js"></script>
+  </head>
+
+  <body class="text-center" style="overflow: hidden">
+    <button
+      class="btn btn-primary"
+      style="position: absolute; top: 10px; right: 10px"
+      onclick="resetModel()"
+    >
+      Reset Texture
+    </button>
+
+    <button
+      class="btn btn-primary"
+      style="position: absolute; bottom: 10px; left: 10px"
+      onclick="wrapModel()"
+    >
+      Wrap 1
+    </button>
+    <button
+      class="btn btn-primary"
+      style="position: absolute; bottom: 10px; left: 110px"
+      onclick="wrapModel2()"
+    >
+      Wrap 2
+    </button>
+
+    <button
+      class="btn btn-primary"
+      style="position: absolute; bottom: 10px; left: 210px"
+      onclick="wrapModel3()"
+    >
+      Wrap 3
+    </button>
+
+    <button
+      class="btn btn-primary"
+      style="position: absolute; bottom: 10px; left: 310px"
+      onclick="wrapModel4()"
+    >
+      Wrap 4
+    </button>
+  </body>
+</html>

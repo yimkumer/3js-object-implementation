@@ -1,0 +1,13 @@
+# Blender MTL File: 'trial.blend'
+# Material Count: 1
+
+newmtl Material
+Ns 491.285234
+Ka 0.128440 0.128440 0.128440
+Kd 0.800000 0.789875 0.496137
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Teal-and-Gold-Marble-Texture-Wallpaper-for-Wall.jpg
